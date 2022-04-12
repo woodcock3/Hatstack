@@ -24,7 +24,7 @@ jobs:
     steps:
       # condition - if UPDATE_NPM = false
       - run: echo ${{ env.UPDATE_NPM }}
-      - if: env.UPDATE_NPM != 'true'
+        if: env.UPDATE_NPM != 'true'
         # checkout code
       - name: Get latest code
         if: env.UPDATE_NPM != 'true'
