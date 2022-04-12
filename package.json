@@ -4,9 +4,14 @@
   "description": "Basic Starter Kit for [GoHugo](https://gohugo.io/), [Tailwind CSS](https://www.tailwindcss.com) and [Alpine.js](https://alpinejs.dev/).",
   "main": "index.js",
   "scripts": {
-    "serve": "hugo server --disableFastRender",
-    "serve:network": "hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 --disableFastRender",
-    "build": "hugo --gc --minify"
+    "dev:css": "npx tailwindcss -i input.css -o static/output.css -w",
+    "dev:alpine": "cp node_modules/alpinejs/dist/cdn.js static/alpine.js",
+    "dev:hugo": "hugo server",
+    "dev": "run-p dev:*",
+    "build:css": "NODE_ENV=production npx tailwindcss -i input.css -o static/output.css -m",
+    "build:alpine": "cp node_modules/alpinejs/dist/cdn.min.js static/alpine.js",
+    "build:hugo": "hugo --cleanDestinationDir --minify",
+    "build": "run-s build:*"
   },
   "author": "woodcock3",
   "license": "ISC",
