@@ -54,8 +54,10 @@ jobs:
           # GITHUB_TOKEN secret is set up automatically
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-        
-npm-update:
+
+
+  # Update NPM if env.UPDATE_NPM = true
+  npm-update:
     name: npm update
     runs-on: ubuntu-latest
     steps:
@@ -68,12 +70,12 @@ npm-update:
         if: env.UPDATE_NPM == 'true'
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
-      - run: npm init -y
+          node-version: '16'
+      # - run: npm init -y
+      #  if: env.UPDATE_NPM == 'true'
+      - run: npm install
         if: env.UPDATE_NPM == 'true'
-      - run: npm install -D @fullhuman/postcss-purgecss postcss postcss-cli autoprefixer cssnano purgecss-from-html purgecss-from-js
-        if: env.UPDATE_NPM == 'true'
-      # - run: npm uninstall
+      # - run: npm uninstall @11ty/eleventy alpinejs html-minifier npm-run-all tailwindcss @builder.io/partytown @tannerhodges/snap-slider
       # - run: npm update # update packages
       - name: pull request on npm update
         if: env.UPDATE_NPM == 'true'
