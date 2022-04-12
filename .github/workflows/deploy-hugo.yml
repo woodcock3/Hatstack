@@ -1,0 +1,41 @@
+name: Deploy Jekyll
+on:
+  push:
+    branches: 
+      - main
+    paths-ignore:
+      - 'README.md'
+      
+# Build site using Hugo
+jobs:
+  web-deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v2.3.4
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: npm install
+        run: npm install
+
+      - name: Build minified
+        run: hugo --environment production --minify
+      # https://github.com/peaceiris/actions-gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # GITHUB_TOKEN secret is set up automatically
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+        
