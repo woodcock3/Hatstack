@@ -1,10 +1,10 @@
-name: hugowind
+name: hatstack
 license: MIT
-description: 'Hugo Tailwind CSS Starter theme'
-homepage: 'https://themes.dev/'
+description: 'Hugo Alpine and Tailwind CSS Starter theme'
+homepage: 'https://woodcock3.github.io/hatstack/'
 tags: []
 features: []
-min_version: 0.79.1
+min_version: 0.1
 author:
-  name: 'Frank Spin, for themes.dev'
-  homepage: 'https://www.themes.dev/'
+  name: 'Woodcock3'
+  homepage: 'https://woodcock3.github.io/hatstack/'
