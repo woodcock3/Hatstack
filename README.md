@@ -4,9 +4,9 @@ Basic Starter Kit for [GoHugo](https://gohugo.io/), [Tailwind CSS](https://www.t
 
 ## Stack
 
-- GoHugo (latest)
+- Hugo (latest)
 - AlpineJS
-- Tailwind 2.x
+- Tailwind 3
 - Tailwind Typography Plugin
 
 ## Features
