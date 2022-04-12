@@ -1,7 +1,7 @@
 baseURL: ''
 languageCode: en
-title: HugoWind
-theme: hugowind
+title: Hatstack
+theme: hatstack
 paginate: 100
 defaultContentLanguage: en
 markup:
