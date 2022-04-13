@@ -5,7 +5,7 @@
 
 This is a work in progress!
 
-Basic Starter Kit for [Hugo](https://gohugo.io/), [Tailwind CSS](https://www.tailwindcss.com) and [Alpine.js](https://alpinejs.dev/).
+Basic Starter Kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.dev/) and [Tailwind CSS](https://www.tailwindcss.com)
 
 ## Stack
 
