@@ -1,6 +1,6 @@
 # HatStack
 
-|![megan-bucknall-unsplash](https://user-images.githubusercontent.com/64870518/163190852-622c8ff3-3a69-4854-aa05-c7abec26be63.jpg)|
+|![andre-styles-unsplash](https://user-images.githubusercontent.com/64870518/163192328-6cb5f7ac-4fde-496f-9152-b6ea202ac802.jpg)|
 | -------------------------------------------------------------------------------------------------------------- |
 
 This is a work in progress!
