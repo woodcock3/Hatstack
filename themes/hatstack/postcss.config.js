@@ -1,10 +1,13 @@
-const autoprefixer = require("autoprefixer")({});
-const path = require("path");
+// postcss.config.js
+
+const autoprefixer = require('autoprefixer');
+const tailwind = require('tailwindcss');
+const postcssimport = require('postcss-import');
 
 module.exports = {
   plugins: [
-    require("postcss-import"),
-    require("tailwindcss")(path.resolve(__dirname) + '/tailwind.config.js'),
-    ...(process.env.HUGO_ENVIRONMENT === "production" ? [autoprefixer] : []),
+    postcssimport,
+    tailwind,
+    ...(process.env.HUGO_ENVIRONMENT === "production" ? [autoprefixer] : [])
   ],
 };
