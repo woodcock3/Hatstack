@@ -11,7 +11,7 @@
     "build:alpine": "cp node_modules/alpinejs/dist/cdn.min.js static/alpine.js",
     "build:hugo": "hugo --cleanDestinationDir --minify",
     "start": "npm-run-all --parallel dev:*",
-    "minify": "npm-run-all --parallel build:css build:alpine build:hugo"
+    "minify": "npm-run-all --parallel build:css build:alpine build:hugo",
     "serve": "hugo server --disableFastRender",
     "serve:network": "hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 --disableFastRender",
     "build": "hugo --gc --minify"
