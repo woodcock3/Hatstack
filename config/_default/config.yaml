@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://woodcock3.github.io/hatstack'
 languageCode: en
 title: Hatstack
 theme: hatstack
