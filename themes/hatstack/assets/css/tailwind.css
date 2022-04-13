@@ -1,10 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom Styles */
 @import "components/abuilder.css";
-
+/* Custom Styles */
 
 /* If you want something explicit not to be purged */
 
