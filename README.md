@@ -3,8 +3,6 @@
 |![andre-styles-unsplash](https://user-images.githubusercontent.com/64870518/163192328-6cb5f7ac-4fde-496f-9152-b6ea202ac802.jpg)|
 | -------------------------------------------------------------------------------------------------------------- |
 
-This is a work in progress!
-
 Basic Starter Kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.dev/) and [Tailwind CSS](https://www.tailwindcss.com)
 
 ## Stack
