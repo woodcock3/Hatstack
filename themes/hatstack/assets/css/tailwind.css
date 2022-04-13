@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 /* Custom Styles */
-@import "components/custom.css";
+@import "components/abuilder.css";
 
 
 /* If you want something explicit not to be purged */
