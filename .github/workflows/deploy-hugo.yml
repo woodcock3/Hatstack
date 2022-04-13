@@ -79,6 +79,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
+            - name: Setup Hugo
+        if: env.UPDATE_NPM == 'true'
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
       - name: Hugo npm pack
         if: env.UPDATE_NPM == 'true'
         run: hugo mod npm pack
