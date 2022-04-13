@@ -39,6 +39,10 @@ jobs:
         with:
           hugo-version: 'latest'
 
+      - name: Hugo npm pack
+        if: env.UPDATE_NPM != 'true'
+        run: hugo mod npm pack
+
       - name: npm install
         if: env.UPDATE_NPM != 'true'
         run: npm i
