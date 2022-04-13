@@ -10,4 +10,5 @@ markup:
           unsafe: true
 permalinks:
   pages: /:slug/
-  
+build:
+  writeStats: true
