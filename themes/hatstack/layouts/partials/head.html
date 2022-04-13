@@ -61,7 +61,10 @@
   {{ end }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"/>
 
-  {{ $js := resources.Get "js/site.js" | js.Build | minify | fingerprint }}
+  {{ $js := resources.Get "js/site.js" | js.Build }}
+  {{ if hugo.IsProduction }}
+  {{ $js := $js | minify | fingerprint }}
+  {{ end }}
   <script defer src="{{ $js.RelPermalink }}"></script>
   
   </head>
