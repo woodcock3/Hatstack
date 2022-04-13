@@ -49,7 +49,7 @@ jobs:
 
       - name: Build minified
         if: env.UPDATE_NPM != 'true'
-        run: hugo --environment production --minify
+        run: hugo --environment dev -v # -v verbose, --minify, - environment production, dev, etc
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
         if: env.UPDATE_NPM != 'true'
