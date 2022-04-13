@@ -1,5 +1,7 @@
 # HatStack
 
+This is a work in progress!
+
 Basic Starter Kit for [GoHugo](https://gohugo.io/), [Tailwind CSS](https://www.tailwindcss.com) and [Alpine.js](https://alpinejs.dev/).
 
 ## Stack
