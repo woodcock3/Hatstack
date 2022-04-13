@@ -74,25 +74,31 @@ jobs:
       - name: Checkout
         if: env.UPDATE_NPM == 'true'
         uses: actions/checkout@v2
+
       - name: Setup Node
         if: env.UPDATE_NPM == 'true'
         uses: actions/setup-node@v2
         with:
           node-version: '16'
-            - name: Setup Hugo
+
+      - name: Setup Hugo
         if: env.UPDATE_NPM == 'true'
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+
       - name: Hugo npm pack
         if: env.UPDATE_NPM == 'true'
         run: hugo mod npm pack
+
       - run: npm init -y
         if: env.UPDATE_NPM == 'true'
+
       - run: npm install
         if: env.UPDATE_NPM == 'true'
-      # - run: npm uninstall @11ty/eleventy alpinejs html-minifier npm-run-all tailwindcss @builder.io/partytown @tannerhodges/snap-slider
+      # - run: npm uninstall alpinejs html-minifier npm-run-all tailwindcss @builder.io/partytown @tannerhodges/snap-slider
       # - run: npm update # update packages
+
       - name: pull request on npm update
         if: env.UPDATE_NPM == 'true'
         uses: woodcock3/create-pull-request@v3
