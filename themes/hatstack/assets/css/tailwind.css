@@ -1,7 +1,7 @@
-@import "tailwind/base";
-@import "tailwind/components";
-@import "tailwind/utilities";
-@import "components/abuilder.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Custom Styles */
 
 /* If you want something explicit not to be purged */
