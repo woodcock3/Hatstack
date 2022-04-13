@@ -10,13 +10,13 @@ Basic Starter Kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.d
 ## Stack
 
 - Hugo (latest)
-- AlpineJS
-- Tailwind 3
-- Tailwind Typography Plugin
+- AlpineJS 2.x
+- Tailwind 3.x & Tailwind Typography
 
 ## Features
 
 - Basic Page & Blog Layouts
+- [Partytown](https://partytown.builder.io/) to run third-party scripts from a web worker
 - Multi Language 
 - Header & Footer navigation
 - SEO best practices
