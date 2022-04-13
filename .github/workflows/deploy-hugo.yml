@@ -64,6 +64,10 @@ jobs:
   npm-update:
     name: npm update
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./
     steps:
       # condition - if UPDATE_NPM = true
       - run: echo '${{ env.UPDATE_NPM }}'
@@ -75,6 +79,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
+      - name: Hugo npm pack
+        if: env.UPDATE_NPM == 'true'
+        run: hugo mod npm pack
       - run: npm init -y
         if: env.UPDATE_NPM == 'true'
       - run: npm install
