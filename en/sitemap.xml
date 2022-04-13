@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://woodcock3.github.io/hatstack/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/categories/"
+                href="https://woodcock3.github.io/hatstack/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://woodcock3.github.io/hatstack/categories/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>https://woodcock3.github.io/hatstack/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/"
+                href="https://woodcock3.github.io/hatstack/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://woodcock3.github.io/hatstack/"
                 />
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://woodcock3.github.io/hatstack/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/tags/"
+                href="https://woodcock3.github.io/hatstack/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://woodcock3.github.io/hatstack/tags/"
                 />
   </url>
 </urlset>
