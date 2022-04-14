@@ -41,11 +41,9 @@ npm install
 ### `config.yml` defaults
 
 ```yml
-
 baseURL: ''
 build:
   writeStats: true
-
 ```
 
 If your using Github pages make sure you update the baseURL.
@@ -55,4 +53,9 @@ Then run your project as usual.
 ### GitHub Actions
 
 For a CI or a dependencies update check out the `.GitHub/workflows/buildORupdate.yml`
-To update Hugo and the npm packages set the NPM_UPDATE env to true. 
+To update Hugo and the npm packages set the env.UPDATE_NPM = true. If env.UPDATE_NPM = false the site will build and deploy to gh-pages.
+
+```yml
+env:
+  UPDATE_NPM = true
+``` 
