@@ -1,4 +1,4 @@
-name: Deploy Hugo
+name: Deploy Or Update Hugo
 
 on:
   schedule:
@@ -39,7 +39,7 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Hugo npm pack
+      - name: Hugo npm package
         if: env.UPDATE_NPM != 'true'
         run: hugo mod npm pack
 
@@ -47,9 +47,10 @@ jobs:
         if: env.UPDATE_NPM != 'true'
         run: npm i
 
-      - name: Build minified
+      - name: Build
         if: env.UPDATE_NPM != 'true'
         run: hugo --environment dev -v # -v verbose, --minify, - environment production, dev, etc
+
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
         if: env.UPDATE_NPM != 'true'
