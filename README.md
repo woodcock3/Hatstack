@@ -38,11 +38,11 @@ hugo mod npm pack
 npm install
 ```
 
-You need to add this to your `config.toml` (the stats are used by the CSS purging):
+Some config `config.yml` defaults:
 
-```toml
-[build]
-writeStats = true
+```yml
+build
+  writeStats: true
 ```
 
 If your using Github pages make sure you update the BaseURL in the config file
