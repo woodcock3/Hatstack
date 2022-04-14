@@ -15,12 +15,13 @@ Basic Starter Kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.d
 
 - Basic Page & Blog Layouts
 - [Partytown](https://partytown.builder.io/) to run third-party scripts from a web worker
+- Deploy to gh-pages with [Github Actions](https://github.com/features/actions)
 - Multi Language 
 - Header & Footer navigation
 - SEO best practices
 - Custom 404 pages
 - Image optimization
-- Purge CSS + HTML Minify configured
+- PurgeCSS + HTML Minify configured
 
 ## As a Project
 
@@ -50,9 +51,9 @@ If your using Github pages make sure you update the baseURL.
 Set the writeStats to true to print the Hugo build stats.
 Then run your project as usual.
 
-### GitHub Actions
+### [GitHub Actions](https://github.com/features/actions)
 
-For a CI or a dependencies update check out the `.GitHub/workflows/deployORupdate.yml`
+For a CI or a dependencies update check out the `.github/workflows/deployORupdate.yml`
 To update Hugo and the npm packages set the env.UPDATE_NPM = true. If env.UPDATE_NPM = false the site will build and deploy to gh-pages.
 
 ```yml
