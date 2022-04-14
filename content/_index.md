@@ -18,3 +18,5 @@ Basic Starter Kit for [GoHugo](https://gohugo.io/) and [Tailwind CSS](https://ww
  ## Tailwind CCS Test 
   
 <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
+{{< youtube id="qtIqKaDlqXo" image="/uploads/youtubeposter.jpg" >}}
