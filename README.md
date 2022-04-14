@@ -38,7 +38,7 @@ hugo mod npm pack
 npm install
 ```
 
-Some config `config.yml` defaults:
+### `config.yml` defaults
 
 ```yml
 
@@ -48,5 +48,11 @@ build:
 
 ```
 
-If your using Github pages make sure you update the BaseURL in the config file
+If your using Github pages make sure you update the baseURL.
+Set the writeStats to true to print the Hugo build stats.
 Then run your project as usual.
+
+### GitHub Actions
+
+For a CI or a dependencies update check out the `.GitHub/workflows/buildORupdate.yml`
+To update Hugo and the npm packages set the NPM_UPDATE env to true. 
