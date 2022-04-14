@@ -41,8 +41,11 @@ npm install
 Some config `config.yml` defaults:
 
 ```yml
-build
+
+baseURL: ''
+build:
   writeStats: true
+
 ```
 
 If your using Github pages make sure you update the BaseURL in the config file
