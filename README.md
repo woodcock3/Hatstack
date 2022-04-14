@@ -54,9 +54,11 @@ Then run your project as usual.
 ### [GitHub Actions](https://github.com/features/actions)
 
 For a CI or a dependencies update check out the `.github/workflows/deployORupdate.yml`
-To update Hugo and the npm packages set the env.UPDATE_NPM = true. If env.UPDATE_NPM = false the site will build and deploy to gh-pages.
+To update Hugo and the npm packages set the env.UPDATE_NPM = true. If env.UPDATE_NPM = false the site will build and deploy to [gh-pages](https://pages.github.com/).
 
 ```yml
 env:
   UPDATE_NPM: true
-``` 
+```
+
+If you are planning to deploy to Netlify this will save you build minutes. 
