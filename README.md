@@ -3,7 +3,7 @@
 |![andre-styles-unsplash](https://user-images.githubusercontent.com/64870518/163192328-6cb5f7ac-4fde-496f-9152-b6ea202ac802.jpg)|
 | -------------------------------------------------------------------------------------------------------------- |
 
-Basic Starter Kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.dev/) and [Tailwind CSS](https://www.tailwindcss.com)
+An opinionated starter kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.dev/) and [Tailwind CSS](https://www.tailwindcss.com)
 
 ## Stack
 
@@ -13,15 +13,16 @@ Basic Starter Kit for [Hugo](https://gohugo.io/), [Alpine.js](https://alpinejs.d
 
 ## Features
 
-- Basic Page & Blog Layouts
-- [Partytown](https://partytown.builder.io/) to run third-party scripts from a web worker
-- Deploy to gh-pages with [Github Actions](https://github.com/features/actions)
+- Basic page & blog layouts
+- [Partytown](https://partytown.builder.io/) to run third-party scripts from a web worker, such as analytics.
+- CI to deploy to gh-pages with [Github Actions](https://github.com/features/actions)
+- [Snap Slider](https://tannerhodges.github.io/snap-slider/) that takes full advantage of CSS scroll snap - [see docs](https://github.com/tannerhodges/snap-slider)
 - Multi Language 
 - Header & Footer navigation
 - SEO best practices
-- Custom 404 pages
-- Image optimization
-- PurgeCSS + HTML Minify configured
+- Custom 404 page
+- [Image processing in Hugo](https://gohugo.io/content-management/image-processing/) or in markdown with [Hugo render hooks](https://gohugo.io/templates/render-hooks/)
+- [PurgeCSS](https://purgecss.com/) and [HTML minify configured in Hugo](https://gohugo.io/hugo-pipes/minification/)
 
 ## As a Project
 
