@@ -1,0 +1,2 @@
+- add a privacy policy page to reference [GitHub Pages](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
+- set up brolti to zip assets
