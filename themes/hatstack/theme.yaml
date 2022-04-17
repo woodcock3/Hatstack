@@ -1,3 +1,5 @@
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
 name: hatstack
 license: MIT
 description: 'Hugo Alpine and Tailwind CSS Starter theme'
