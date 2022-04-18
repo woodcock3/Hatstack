@@ -2,7 +2,7 @@
 
 const autoprefixer = require("autoprefixer");
 const purgecss = require('@fullhuman/postcss-purgecss');
-const path = require("path");
+// const path = require("path");
 
 module.exports = {
   plugins: [
