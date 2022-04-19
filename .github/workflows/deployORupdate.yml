@@ -90,7 +90,7 @@ jobs:
 
       - name: Hugo npm pack
         if: env.UPDATE_NPM == 'true'
-        run: hugo mod npm pack --verbose
+        run: hugo mod npm pack
 
       - run: npm init -y
         if: env.UPDATE_NPM == 'true'
