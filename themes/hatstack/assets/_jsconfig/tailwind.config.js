@@ -1,8 +1,11 @@
-// const path = require("path");
+const path = require("path");
 
 module.exports = {
   enabled: process.env.HUGO_ENVIRONMENT === "production",
-  content: [path.resolve(__dirname) + "/layouts/**/*.html"],
+  content: [
+    path.resolve(__dirname) + "/layouts/**/*.html", 
+    'layouts/**/*.html'
+  ],
   safelist: [],
   theme: {
     extend: {
