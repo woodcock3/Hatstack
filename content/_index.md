@@ -15,7 +15,7 @@ Basic Starter Kit for [GoHugo](https://gohugo.io/) and [Tailwind CSS](https://ww
     </div>
   </div>
   
- ## Tailwind CCS Test 
+ ## Tailwind CSS Test 
   
 <h1 class="text-3xl font-bold underline">Hello world!</h1>
 
