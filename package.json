@@ -1,7 +1,7 @@
 {
-  "author": "woodcock3",
+  "author": "woodcox",
   "bugs": {
-    "url": "https://github.com/woodcock3/Hatstack/issues"
+    "url": "https://github.com/woodcox/hatstack/issues"
   },
   "comments": {
     "dependencies": {},
@@ -33,7 +33,7 @@
     "postcss-import": "^14.1.0",
     "tailwindcss": "^3.0.0"
   },
-  "homepage": "https://github.com/woodcock3/Hatstack#readme",
+  "homepage": "https://github.com/woodcox/hatstack#readme",
   "keywords": [
     "Hugo",
     "Go",
