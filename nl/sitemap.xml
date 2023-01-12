@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://woodcock3.github.io/hatstack/nl/categories/</loc>
+    <loc>https://woodcox.github.io/hatstack/nl/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://woodcock3.github.io/hatstack/categories/"
+                href="https://woodcox.github.io/hatstack/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://woodcock3.github.io/hatstack/nl/categories/"
+                href="https://woodcox.github.io/hatstack/nl/categories/"
                 />
   </url><url>
-    <loc>https://woodcock3.github.io/hatstack/nl/</loc>
+    <loc>https://woodcox.github.io/hatstack/nl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://woodcock3.github.io/hatstack/"
+                href="https://woodcox.github.io/hatstack/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://woodcock3.github.io/hatstack/nl/"
+                href="https://woodcox.github.io/hatstack/nl/"
                 />
   </url><url>
-    <loc>https://woodcock3.github.io/hatstack/nl/tags/</loc>
+    <loc>https://woodcox.github.io/hatstack/nl/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://woodcock3.github.io/hatstack/tags/"
+                href="https://woodcox.github.io/hatstack/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://woodcock3.github.io/hatstack/nl/tags/"
+                href="https://woodcox.github.io/hatstack/nl/tags/"
                 />
   </url>
 </urlset>

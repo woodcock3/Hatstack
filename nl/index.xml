@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hatstack</title>
-    <link>https://woodcock3.github.io/hatstack/nl/</link>
+    <link>https://woodcox.github.io/hatstack/nl/</link>
     <description>Recent content on Hatstack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl</language><atom:link href="https://woodcock3.github.io/hatstack/nl/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl</language><atom:link href="https://woodcox.github.io/hatstack/nl/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
