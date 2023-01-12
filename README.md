@@ -33,7 +33,7 @@ hugo server
 
 ## As a Theme
 
-Import `github.com/woodcock3/hatstack/` into your project, and then run:
+Import `github.com/woodcox/hatstack/` into your project, and then run:
 
 ```bash
 hugo mod npm pack
