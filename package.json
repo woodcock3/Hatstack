@@ -46,7 +46,7 @@
   "name": "hatstack",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woodcock3/Hatstack.git"
+    "url": "git+https://github.com/woodcox/hatstack.git"
   },
   "scripts": {},
   "version": "1.0.0"
