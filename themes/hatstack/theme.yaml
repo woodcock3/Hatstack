@@ -3,10 +3,10 @@
 name: hatstack
 license: MIT
 description: 'Hugo AlpineJS and Tailwind CSS Starter theme'
-homepage: 'https://woodcock3.github.io/hatstack/'
+homepage: 'https://woodcox.github.io/hatstack/'
 tags: ["Hugo", "AlpineJS", "Tailwind", "Theme", "modern", "responsive"]
 features: []
 min_version: 0.1
 author:
-  name: 'Woodcock3'
-  homepage: 'https://woodcock3.github.io/hatstack/'
+  name: 'Woodcox'
+  homepage: 'https://woodcox.github.io/hatstack/'
