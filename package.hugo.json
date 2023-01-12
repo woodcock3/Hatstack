@@ -4,7 +4,7 @@
   "description": "Basic Starter Kit for [GoHugo](https://gohugo.io/), [Tailwind CSS](https://www.tailwindcss.com) and [Alpine.js](https://alpinejs.dev/).",
   "main": "index.js",
   "scripts": {},
-  "author": "woodcock3",
+  "author": "woodcox",
   "license": "ISC",
   "devDependencies": {
     "@builder.io/partytown": "^0.5.0",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woodcock3/Hatstack.git"
+    "url": "git+https://github.com/woodcox/hatstack.git"
   },
   "keywords": [
     "Hugo",
@@ -31,7 +31,7 @@
     "Postcss"
   ],
   "bugs": {
-    "url": "https://github.com/woodcock3/Hatstack/issues"
+    "url": "https://github.com/woodcox/hatstack/issues"
   },
-  "homepage": "https://github.com/woodcock3/Hatstack#readme"
+  "homepage": "https://github.com/woodcox/hatstack#readme"
 }
